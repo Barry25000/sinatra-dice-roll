@@ -1,4 +1,6 @@
-<h1>50d6</h1>
+<%= params.fetch("zebra") %>
+
+<h1><%= @num_dice %>d<%= @side_dice %></h1>
 
 <ul>
   <% @rolls.each do |a_roll| %>
